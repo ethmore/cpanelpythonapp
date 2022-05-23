@@ -17,7 +17,7 @@
 ## Step 3 -Python DB Settings
   -Go to your settings.py. Generally on "root"/core/settings.py
   
-  -Change DATABASE settings
+  -Change DATABASE settings (There is an example at the bottom of the page)
 
 ## Step 4 -Create Python App from cPanel
   -Select last version
@@ -35,7 +35,7 @@
   
   Note: "pip install mysqlclient" can be problematic sometimes. In that case use "pip install mysql-connector-python"
   
-    Example
+  Example
 ```
 pip install django
 pip install Pillow
@@ -83,3 +83,7 @@ Restart Python Application Again
             },
         }
     }
+
+Admin panel superuser creation command
+
+    python manage.py createsuperuser
